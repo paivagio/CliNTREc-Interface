@@ -1,2 +1,3 @@
-# CliNTREc---Interface
-CliNTREc's system interface
+# CliNTREc-Interface
+
+The oficial interface for CliNTREc
