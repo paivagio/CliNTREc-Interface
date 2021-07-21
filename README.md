@@ -4,7 +4,7 @@
 
 The oficial interface for CliNTREc, created with [Electron](https://www.electronjs.org/), HTML, CSS and  Javascript. 
 
-> NOTICE: For the time being it is only available in **Portuguese** and offers support exclusively the cohort selection task.
+> NOTICE: For the time being it is only available in **Portuguese** and offers support exclusively to the cohort selection task.
 
 ## Installation
 
