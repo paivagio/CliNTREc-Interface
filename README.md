@@ -17,9 +17,10 @@ Download both [CliNTREc](https://github.com/paivagio/CliNTREc) and its Interface
 Launch the application by running the **CliNTREc.exe** file, located at the **Interface/** 
 folder, and proceed by clicking the **RUN** button.
 
-### Input
 
 ![picture alt](images/run_marked.png)
+
+### Input
 
 The available input fields are:
 1. ID
