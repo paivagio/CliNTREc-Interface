@@ -22,7 +22,7 @@ folder, and proceed by clicking the **RUN** button.
 
 ![picture alt](images/run_marked.png)
 
-### Input
+### 1. Input
 
 The available input fields are:
 1. ID
@@ -32,20 +32,20 @@ The available input fields are:
 
 Please check [CliNTREc's usage guide](https://github.com/paivagio/CliNTREc/#usage) for input format detailing.
 
-### Running
+### 2. Running
 
 Once you are done filling up your criteria, proceed to the **Run (5)** frame where you will find two buttons:
 
 - RUN: Sends your input to the program and selects pacients.
 - TRASH: Resets all fields
 
-### Settings
+### 3. Settings
 
 ![picture alt](images/settings.png)
 
 You will need to indicate where CliNTREc is located by going to **Settings (6)**, the interface will warn you incase you leave it blank and you will also need to fill it up every time you open the app. 
 
-### Output
+### 4. Output
 
 ![picture alt](images/output.png)
 
