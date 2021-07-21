@@ -1,0 +1,121 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="run.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class='settings'>
+      <p>CliNTREc:</p>
+      <p contenteditable="true" placeholder="ex: C:/USER/Desktop/CliNTREc" id="clintrec_dir" spellcheck="false"></p>
+      <button id='closeSettings'>X</button>
+    </div>
+    <img src="../images/spinner.svg" alt="Loading..." id="loading">
+    <header class="headerContainer">
+      <a href="../index.html">
+        <img src="../images/logo.svg" alt="CliNTRec">
+      </a>
+      <div class="info">
+        <div>
+          <img src="../images/people.svg" alt="">
+          <span>+10 mil pacientes</span>
+        </div>
+        <div>
+          <img src="../images/tag.svg" alt="">
+          <span>Versão 1.0</span>
+        </div>
+      </div>
+      <button id='settingsBut'>
+        <img src="../images/settings.svg" alt="Configuração">
+      </button>
+    </header>
+    <main class="mainContent">
+      <div class="fields">
+        <div class="upload">
+          <div>
+            <form action="" id="id">
+              <h2>ID</h2>
+              <input type="text" placeholder="Digite aqui o código do EC">
+              <img src="../images/check_bold.svg" alt="" id="idCheck">
+            </form>
+            <form action="" id="url">
+              <h2>URL</h2>
+              <input type="text" placeholder="Digite aqui a url do EC">
+              <img src="../images/check_bold.svg" alt="" id="urlCheck">
+            </form>
+          </div>
+          <span>OU</span>
+          <div id="fileUpload">
+            <img src="../images/file.svg" alt="Upload de arquivos">
+            <p>Pesquisar no computador</p>
+            <p placeholder="Nenhum arquivo selecionado" id="filename"></p>
+            <input type="file" id="fileInput" accept=".txt">
+          </div>
+        </div>
+        <div class="criteria">
+          <form action="">
+            <h2>Critérios de Inclusão</h2>
+            <div>
+              <p contenteditable="true" placeholder="Insira aqui os seus critérios de inclusão." id="inclusion"
+                spellcheck="false"></p>
+            </div>
+          </form>
+          <form action="">
+            <h2>Critérios de Exclusão</h2>
+            <div>
+              <p contenteditable="true" placeholder="Insira aqui os seus critérios de exclusão." id="exclusion"
+                spellcheck="false"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="results">
+        <img src="../images/run_idle.svg" alt="Cientista" id="runImage">
+        <p>Preencha os campos a esquerda e rode o programa</p>
+        <div class="posRun">
+          <span id="numSelected">0</span>
+          <p>PACIENTES ELEGÍVEIS</p>
+          <div class="downloads">
+            <button id='buttonDownloadEc'>
+              <a href="" download='ec.xml' id="downloadEc"></a>
+              <img src="../images/download.svg" alt="">
+              <span>Critérios de Elegibilidade</span>
+            </button>
+            <button id='buttonDownloadP'>
+              <a href="" download='cohort.txt' id="downloadP"></a>
+              <img src="../images/download.svg" alt="">
+              <span>Relação de Pacientes</span>
+            </button>
+          </div>
+        </div>
+        <div id="RunAndTrash">
+          <button id="run">
+            <img src="../images/button.svg" alt="Run">
+          </button>
+          <button id="trash">
+            <img src="../images/trash.svg" alt="Trash">
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="footerContainer">
+      <img src="../images/logo_gray.svg" alt="">
+      <img src="../images/heart_fill.svg" alt="" id="heart">
+      <p>Projetado e construído por
+        <a id="giovanni">Giovanni Paiva</a>
+      </p>
+      <div id="ponto"></div>
+      <p>Apoiado por
+        <a id="hailab">HAILab</a>
+      </p>
+      <div>
+        <img src="../images/pucpr.svg" alt="PUCPR" id="pucpr">
+        <img src="../images/hailab.svg" alt="HAILab">
+      </div>
+    </footer>
+  </div>
+</body>
+<script src="../scripts/test.js"></script>
+
+</html>

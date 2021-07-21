@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+html, body {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.headerContainer{
+  background-color: white;
+  height: 3rem;
+  padding: 2rem 15rem 0rem 15rem;
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.info {
+  margin-left: 42%;
+  display: flex;
+  align-items: center;
+  font-size: .8rem;
+  font-size: .75rem;
+}
+
+.info img {
+  margin-left: 2rem;
+  align-self: center;
+}
+
+.info div {
+  display: flex;
+}
+
+.info p {
+  align-self: center;
+}
+
+.footerContainer {
+  position: relative;
+  height: 6.5rem;
+  left: 0;
+  width: 100%;
+  top: 630px;
+  background-color: #F7F9FC;
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: .75rem;
+
+  display: flex;
+  align-items: center;
+  padding: 0rem 15rem;
+  color: gray;
+}
+
+#heart {
+  margin-left: 2rem;
+}
+
+.footerContainer p a {
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#ponto {
+  background-color: gray;
+  height: .3rem;
+  width: .3rem;
+  margin: 0 .5rem;
+  border-radius: 1rem;
+}
+
+.footerContainer div {
+  position: relative;
+  margin-left: 19.5rem;
+  display: flex;
+}
+
+.footerContainer div img {
+  height: 3rem;
+  align-self: center;
+}
+
+.footerContainer div img:last-child {
+  margin-left: 2rem;
+  height: 4rem;
+}
+
+#pucpr, #hailab {
+  cursor: pointer;
+}
+
+.mainContent {
+  position: absolute;
+  width: 1370px;
+  height: 650px;
+  left: 120px;
+  top: 104px;
+
+  padding-left: 1.6rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 900px;
+  height: 100%;
+
+  font-family: 'DM Sans', sans-serif;
+}
+
+.upload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.fields span {
+  position: relative;
+  top: 6rem;
+
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.upload div form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#id h2, #url h2 {
+  color: white;
+
+  position: relative;
+  top: 0;
+  left: -.5rem;
+  z-index: 1;
+
+  height: 52px;
+  width: 90px;
+
+  background: #3CE424;
+  mix-blend-mode: normal;
+  border-radius: 8px;
+
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 50px;
+  text-align: center;
+}
+
+#id input, #url input {
+  position: relative;
+  left:-1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 2.5rem;
+
+  width: 288px;
+  height: 52px;
+
+  background: #FFFFFF;
+  border: none;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 0 8px 8px 0;
+
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+#idCheck, #urlCheck {
+  position: absolute;
+  left: 21.5rem;
+  z-index: 2;
+  opacity: 0;
+}
+
+#id input::placeholder, #url input::placeholder {
+  color: #8F9BB3;
+  font-family: 'DM Sans', sans-serif;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 32px;
+}
+
+#fileUpload {
+  position: relative;
+  top: -.4rem;
+
+  width: 275px;
+  height: 150px;
+
+  background: rgba(196, 196, 196, 0.25);
+  border: 1px solid #C4C4C4;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#fileUpload img {
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+#fileUpload p {
+  font-weight: bold;
+  font-size: .9rem;
+  line-height: 18px;
+}
+
+#fileUpload p:empty:not(:focus)::before{
+  position: absolute;
+  top: 7.5rem;
+  left: 2.5rem;
+  width: 100%;
+  
+  content: attr(placeholder);
+  color: #8F9BB3;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#filename:not(:empty) {
+  color: #8F9BB3;
+  font-weight: 500;
+  font-size: 14px;
+
+  margin-top: -0.5rem;
+}
+
+#fileUpload input {
+  position: absolute;
+  top: 0;
+
+  width: 275px;
+  height: 150px;
+
+  opacity: 0;
+  cursor: pointer;
+}
+
+.criteria {
+  width: 100%;
+}
+
+.criteria form {
+  height: 180px;
+}
+
+.criteria form div {
+  position: relative;
+  width: 680px;
+  height: 120px;
+  top: -3rem;
+  padding-top: 2rem;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border: none;
+}
+
+.criteria form div p {  
+  position: relative;
+  top: 0;
+  padding: 0.5rem;
+  margin: 0.5rem;
+
+  width: 656px;
+  height: 85px;
+
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  text-align: justify;
+}
+
+.criteria form div p:empty:not(:focus)::before {
+  content: attr(placeholder);
+
+  color: #8F9BB3;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.criteria form h2 {
+  color: white;
+
+  position: relative;
+  left: -.5rem;
+  top: 0;
+  z-index: 1;
+
+  width: 260px;
+  height: 52px;
+  padding-left: 1rem;
+
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 50px;
+  /* Color/Primary */
+
+  background: #3CE424;
+  border-radius: 8px;
+}
+
+.results {
+  position: relative;
+  width: 550px;
+  height: 550px;
+
+  top: -1.8rem;
+  margin: 0 50px 0px 0px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-family: 'DM Sans', sans-serif;
+}
+
+#runImage {
+  position: relative;
+  top: -.8rem;
+
+  width: 448px;
+  height: 410px;
+}
+
+.results p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#RunAndTrash {
+  position: relative;
+  top: 2rem;
+  left: -12rem;
+
+  width: 191px;
+  height: 80px;
+}
+
+#RunAndTrash button {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+#RunAndTrash button img {
+  height: 3rem;
+}
+
+#RunAndTrash button:first-child {
+  background: #249FE4;
+}
+
+#RunAndTrash button:last-child {
+  background: #E42424;
+}
+
+.posRun {
+  position: absolute;
+  top: 20rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  opacity: 0;
+  z-index: -1;
+
+  font-family: 'DM Sans', sans-serif;
+}
+
+.posRun span {
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 48px;
+}
+
+.downloads button a {
+  position: absolute;
+  width: 216px;
+  height: 48px;
+  cursor: pointer;
+}
+
+#downloadEc {
+  left: .2rem;
+}
+
+#downloadP {
+  right: .3rem;
+}
+
+.downloads button {
+  width: 216px;
+  height: 48px; 
+  margin: .3rem;
+
+  background: #3CE424;
+  border-radius: 8px;
+  border: none;
+}
+
+.downloads button img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: .3rem;
+}
+
+.downloads button span {
+  color: white;
+  width: 173px;
+  height: 30px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 48px;
+}
+
+.settings {
+  position: absolute;
+  left: 17%;
+  top: 130%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+
+  width: 60rem;
+  height: 5rem;
+  padding-left: 1.5rem;
+  z-index: -2;
+  opacity: 0;
+
+  font-family: 'DM Sans', sans-serif;
+}
+
+.settings p:first-child {
+  position: relative;
+  top: .4rem;
+
+  height: 2rem;
+  width: 5rem;
+  font-weight: bold;
+}
+
+#clintrec_dir {
+  position: relative;
+  color: black;
+  height: 2.5rem;
+  width: 40rem;
+  left: 1rem;
+
+  padding-top: 1.2rem;
+  padding-left: 1rem;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.settings button {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+
+  font-weight: bold;
+  font-size: 1rem;
+
+  cursor: pointer;
+
+  left: 10rem;
+  background: #FFFFFF;
+  border: 0;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+#clintrec_dir:empty:not(:focus)::before {
+  content: attr(placeholder);
+  color: #8F9BB3;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#settingsBut {
+  position: relative;
+  left: 5rem;
+  cursor: pointer;
+
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+
+  background: rgb(255, 255, 255);
+  border: 0;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#settingsBut img{
+  height: 1.8rem;
+  width: 1.8rem;
+}
+
+#loading {
+  position: absolute;
+  top: 19rem;
+  left: 45rem;
+
+  opacity: 0;
+  z-index: -2;
+  height: 6rem;
+  width: 6rem;
+}

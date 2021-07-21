@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+html, body {
+  overflow: hidden;
+}
+
+.wrapper {
+  background-color: rgb(255, 255, 255);
+}
+
+.headerContainer{
+  background-color: white;
+  position: fixed;
+  height: 3rem;
+  padding: 2rem 15rem 0rem 15rem;
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.info {
+  margin-left: 42%;
+  display: flex;
+  align-items: center;
+  font-size: .8rem;
+  font-size: .75rem;
+}
+
+.info img {
+  margin-left: 2rem;
+  align-self: center;
+}
+
+.info div {
+  display: flex;
+}
+
+.info p {
+  align-self: center;
+}
+
+.footerContainer {
+  position: fixed;
+  height: 6.5rem;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background-color: #F7F9FC;
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: .75rem;
+
+  display: flex;
+  align-items: center;
+  padding: 0rem 15rem;
+  color: gray;
+}
+
+#heart {
+  margin-left: 2rem;
+}
+
+.footerContainer p a {
+  color: gray;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#ponto {
+  background-color: gray;
+  height: .3rem;
+  width: .3rem;
+  margin: 0 .5rem;
+  border-radius: 1rem;
+}
+
+.footerContainer div {
+  position: relative;
+  margin-left: 19.5rem;
+  display: flex;
+}
+
+.footerContainer div img {
+  height: 3rem;
+  align-self: center;
+}
+
+.footerContainer div img:last-child {
+  margin-left: 2rem;
+  height: 4rem;
+}
+
+.mainContent {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#pucpr, #hailab {
+  cursor: pointer;
+}
+
+.mainContent img {
+  position: absolute;
+  width: 46.8rem;
+  height: 46.8rem;
+  right: -2rem;
+  top: 0px;
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 34rem;
+  height: 20.25rem;
+  left: 15rem;
+  top: 12.5rem;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.caption h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+#capText {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+#buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+
+#buttons a{
+  position: relative;
+  text-decoration: none;
+}
+
+#buttons a:last-child {
+  left: 1.5rem;
+}
+
+#buttons a button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 24px;
+  color: white;
+
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 3rem;
+
+  cursor: pointer;
+}
+
+#buttons a img{
+  position: static;
+  height: 1.5rem;
+  padding-right: .7rem;
+}
+
+#run{
+  width: 6.4rem;
+  height: 3rem;
+  left: 0;
+  top: 0;
+
+  background: #3CE424;
+  border: none;
+  border-radius: .5rem;
+}
+
+#github {
+  width: 7.75rem;
+  height: 3rem;
+  top: 0;
+
+  background: #8F9BB3;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: .5rem;
+}
+
+#beta {
+  color: white;
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+
+  width: 2.5rem;
+  height: 1.25rem;
+  left: .25rem;
+  top: .25rem;
+
+  background: #3CE424;
+  border-radius: 2.25rem;
+}

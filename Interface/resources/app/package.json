@@ -1,0 +1,23 @@
+{
+  "name": "clintrec",
+  "productName": "CliNTREc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "test"
+  },
+  "author": "giovanni paiva",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.1.2",
+    "electron-packager": "^15.3.0"
+  },
+  "build": {
+    "extraResources": "python_scripts"
+  },
+  "dependencies": {
+    "python-shell": "^3.0.0"
+  }
+}
