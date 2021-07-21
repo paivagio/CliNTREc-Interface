@@ -2,7 +2,9 @@
 
 # CliNTREc - Interface ![Badge](	https://img.shields.io/github/license/paivagio/CliNTREc) ![Badge](https://img.shields.io/badge/status-work%20in%20progress-orange)
 
-The oficial interface for CliNTREc, created with [Electron](https://www.electronjs.org/), HTML, CSS and  Javascript. For the time being it is only available in **Portuguese** and offers support exclusively the cohort selection task.
+The oficial interface for CliNTREc, created with [Electron](https://www.electronjs.org/), HTML, CSS and  Javascript. 
+
+> NOTICE: For the time being it is only available in **Portuguese** and offers support exclusively the cohort selection task.
 
 ## Installation
 
