@@ -6,11 +6,11 @@ The oficial interface for CliNTREc, created with [Electron](https://www.electron
 
 ## Installation
 
-Download both [CliNTREc]() and its Interface (see bellow) and proceed to link them by refering to the instructions that follow.
+Download both [CliNTREc](https://github.com/paivagio/CliNTREc) and its Interface (see bellow) and proceed to link them by refering to the instructions that follow.
 
 | Name | Version | Date | Link |
 |------|------|------|------|
-| CliNTREc Interface | 1.0 | 21/07/2021 |[Download](https://drive.google.com/file/d/1sv8aKdCxS-Pseukb33Wu0TIIHDosiSxA/view?usp=sharing)|
+| CliNTREc Interface | 1.0 | 21/07/2021 |[Download](https://github.com/paivagio/CliNTREc-Interface/archive/refs/heads/main.zip)|
 
 ## Usage
 
@@ -19,7 +19,7 @@ folder, and proceed by clicking the **RUN** button.
 
 ### Input
 
-![picture alt](images/banner.png)
+![picture alt](images/run_marked.png)
 
 The available input fields are:
 1. ID
@@ -38,13 +38,13 @@ Once you are done filling up your criteria, proceed to the **Run (5)** frame whe
 
 ### Settings
 
-![picture alt](images/banner.png)
+![picture alt](images/settings.png)
 
 You will need to indicate where CliNTREc is located by going to **Settings (6)**, the interface will warn you incase you leave it blank and you will also need to fill it up every time you open the app. 
 
 ### Output
 
-![picture alt](images/banner.png)
+![picture alt](images/output.png)
 
 After you have run the program you will come across the **Results** frame, which will replace the **Run** frame. In this new frame it is possible to see the amount of selected pacientes as well as downloading the processed eligibility criteria and the relation of selected pacients.
 
