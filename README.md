@@ -9,7 +9,7 @@ The oficial interface for CliNTREc, created with [Electron](https://www.electron
 Download both [CliNTREc](https://github.com/paivagio/CliNTREc) and its Interface (see bellow) and proceed to link them by refering to the instructions that follow.
 
 | Name | Version | Date | Link |
-|------|:------:|------|------|
+|------|:------:|------|:------:|
 | CliNTREc Interface | 1.0 | 21/07/2021 |[Download](https://github.com/paivagio/CliNTREc-Interface/archive/refs/heads/main.zip)|
 
 ## Usage
