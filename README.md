@@ -6,8 +6,6 @@ The oficial interface for CliNTREc
 
 # Installation
 
-We are making available our specialized model for the NER task that we trained with [PortugueseClinicalNER corpus](https://github.com/fabioacl/PortugueseClinicalNER).
-
 Please download, unzip and follow the instructions bellow.
 
 | Name | Version | Date | Link |
